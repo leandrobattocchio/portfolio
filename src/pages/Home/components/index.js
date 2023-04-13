@@ -1,5 +1,3 @@
 export * from './ArrowSeparator'
-export * from './Education'
-export * from './Experience'
 export * from './Greeting'
 export * from './Projects'
