@@ -1,0 +1,11 @@
+.light {
+    background-color: #ebedf1;
+    min-height: 100vh;
+    color: rgb(21, 21, 21);
+}
+
+.dark {
+    background-color: rgb(1, 1, 1);
+    min-height: 100vh;
+    color: rgb(239, 232, 232);
+}

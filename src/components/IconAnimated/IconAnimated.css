@@ -1,0 +1,26 @@
+.icon-bg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+}
+
+.animation-icon {
+    animation: icon-bg-animation 5s ease-in-out infinite;
+}
+
+@keyframes icon-bg-animation {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    66% {
+        opacity: .4;
+    }
+
+    100% {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+}

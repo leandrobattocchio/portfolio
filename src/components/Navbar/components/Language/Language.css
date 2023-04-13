@@ -1,0 +1,13 @@
+.translation-button button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1px;
+    border: none;
+}
+
+.translation-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+}

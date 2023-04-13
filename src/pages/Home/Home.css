@@ -1,0 +1,26 @@
+.home-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.delay-large {
+    animation-delay: 2s, 2.2s;
+}
+
+.delay-short {
+    animation-delay: 0.5s, 0.7s;
+}
+
+h2 {
+    color: rgb(10, 33, 65);
+
+}
+
+h3 {
+    color: rgb(18, 28, 104);
+}
+
+p {
+    color: rgb(1, 0, 5);
+}

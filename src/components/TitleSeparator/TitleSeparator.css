@@ -1,0 +1,19 @@
+.title-separator {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem 0rem;
+    width: 100%;
+}
+
+.title-separator h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.line-separator {
+    height: 1px;
+    width: 100%;
+    border: 2px solid;
+}
