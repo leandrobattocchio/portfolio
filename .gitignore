@@ -8,6 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 /src/pages/Home/components/Experience
 /src/pages/Home/components/Education
+/src/assets/veruska.jpg
+/src/assets/veruska-blur.jpg
 node_modules
 dist
 dist-ssr
