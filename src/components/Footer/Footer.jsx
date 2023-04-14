@@ -7,7 +7,7 @@ function Footer () {
     const { style } = useStyles()
     return (
         <footer className='footer' style={{ borderColor: style.PRIMARY_COLOR }}>
-            <div className='footer-line' />
+            <div className='footer-line' style={{ borderColor: style.PRIMARY_COLOR }} />
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                 <div className='footer-left'>
                     <CodeIcon color={style.PRIMARY_COLOR} />

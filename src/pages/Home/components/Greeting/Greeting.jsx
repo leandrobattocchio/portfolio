@@ -3,12 +3,21 @@ import profilePhoto from '@/assets/profile.jpg'
 import profilePhotoBlur from '@/assets/profile-blur.jpg'
 import { useImageLoader, useStyles, useTranslation } from '@/hooks/'
 import CV from '@/assets/CV.pdf'
+import { GA_ID } from '@/consts/'
+import ReactGA from 'react-ga'
+import { useEffect } from 'react'
 import './Greeting.css'
+
+ReactGA.initialize(GA_ID)
 
 function Greeting () {
     const { processingImage } = useImageLoader(profilePhoto)
     const { translation } = useTranslation()
     const { style } = useStyles()
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname)
+    }, [])
 
     return (
         <div id='greeting' className='greeting'>
