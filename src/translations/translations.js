@@ -2,6 +2,7 @@ export const translations = {
     es: {
         cv: 'Mi CV',
         visit: 'Visitar',
+        home: 'Inicio',
         experience: 'Experiencia',
         education: 'Educacion',
         projects: 'Proyectos',
@@ -19,6 +20,7 @@ export const translations = {
     en: {
         cv: 'My CV',
         visit: 'Visit',
+        home: 'Home',
         experience: 'Experience',
         education: 'Education',
         projects: 'Projects',

@@ -17,3 +17,10 @@
     width: 100%;
     border: 2px solid;
 }
+
+
+@media screen and (max-width: 597px) {
+    .title-separator {
+        padding: 2rem 0;
+    }
+}

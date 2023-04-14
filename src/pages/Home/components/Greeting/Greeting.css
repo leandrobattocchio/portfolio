@@ -239,6 +239,7 @@
     .greeting {
         padding: 2rem;
         width: 100%;
+        margin: 0;
     }
 
     .greeting img {

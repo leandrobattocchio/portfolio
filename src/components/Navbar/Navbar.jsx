@@ -10,8 +10,7 @@ function Navbar () {
     return (
         <header className='navbar'>
             <div className='navbar-items'>
-                <Anchor className='navbar-item' color={style.PRIMARY_COLOR} href='#experience'>{translation.experience}</Anchor>
-                <Anchor className='navbar-item' color={style.PRIMARY_COLOR} href='#education'>{translation.education}</Anchor>
+                <Anchor className='navbar-item' color={style.PRIMARY_COLOR} href='#greeting'>{translation.home}</Anchor>
                 <Anchor className='navbar-item' color={style.PRIMARY_COLOR} href='#projects'>{translation.projects}</Anchor>
             </div>
             <div className='navbar-features'>
