@@ -11,11 +11,11 @@ function Home () {
 
     return (
         <main className='home-page'>
+            <Section>
+                <Greeting />
+                <ArrowSeparator Arrow={ArrowIcon} className='delay-large' />
+            </Section>
             <Suspense fallback={null}>
-                <Section>
-                    <Greeting />
-                    <ArrowSeparator Arrow={ArrowIcon} className='delay-large' />
-                </Section>
                 <Section id='projects'>
                     <div ref={firstRef} />
                     {isShowFirst ? <Projects /> : null}
