@@ -1,29 +1,9 @@
 import { CssIcon, ExpressIcon, GitIcon, GqIcon, HtmlIcon, IconAnimated, JsIcon, NextIconB, NodeIcon, ReactIconB, TailwindIconB, TsIcon } from '..'
-import { useRef, useState, useEffect } from 'react'
+import { useBackground } from '@/hooks/'
 import './BackgroundAnimated.css'
 
 export const BackgroundAnimated = ({ children, theme }) => {
-    const [widthBg, setWidth] = useState(0)
-    const [heightBg, setHeight] = useState(0)
-    const background = useRef(null)
-
-    useEffect(() => {
-        if (background.current !== null) {
-            const { width, height } = background.current.getBoundingClientRect()
-            setWidth(width)
-            setHeight(height)
-        }
-    }, [])
-
-    useEffect(() => {
-        window.addEventListener('resize', () => {
-            if (background.current !== null) {
-                const { width, height } = background.current.getBoundingClientRect()
-                setWidth(width)
-                setHeight(height)
-            }
-        })
-    }, [])
+    const { widthBg, heightBg, background } = useBackground()
 
     return (
         <div className="bg-animated" ref={background}>

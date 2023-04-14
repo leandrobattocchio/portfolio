@@ -10,7 +10,7 @@ export const STYLES_LIGHT = {
 export const STYLES_DARK = {
     PRIMARY_COLOR: '#fff',
     SECONDARY_COLOR: 'rgb(116 115 115)',
-    BACKGROUND_COLOR: 'rgb(216 216 216)',
+    BACKGROUND_COLOR: 'rgb(235 231 231)',
     TEXT_COLOR_SECONDARY: '#fff',
     TEXT_COLOR: 'black',
     BORDER_IMAGE: 'rgba(217, 216, 224, 0.2)'
