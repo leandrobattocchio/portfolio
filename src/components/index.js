@@ -5,6 +5,7 @@ export * from './Footer';
 export * from './IconAnimated';
 export * from './Icons';
 export * from './Layout';
+export * from './Loader';
 export * from './Navbar';
 export * from './Paragraph';
 export * from './SecondTitle';
