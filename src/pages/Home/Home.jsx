@@ -18,7 +18,7 @@ function Home () {
 
     return (
         <main className='home-page'>
-            <Section>
+            <Section id='greeting'>
                 <Greeting />
                 <ArrowSeparator Arrow={ArrowIcon} className='delay-large' />
             </Section>

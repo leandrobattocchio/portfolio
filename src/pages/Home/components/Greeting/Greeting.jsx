@@ -11,7 +11,7 @@ function Greeting () {
     const { style } = useStyles()
 
     return (
-        <div id='greeting' className='greeting'>
+        <div className='greeting'>
             {
                 processingImage
                     ? <img style={{ borderColor: style.PRIMARY_COLOR }} src={profilePhotoBlur} alt='leandro battocchio photo blur' />
