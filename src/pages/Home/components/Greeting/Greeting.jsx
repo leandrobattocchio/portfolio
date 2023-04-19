@@ -14,8 +14,8 @@ function Greeting () {
         <div className='greeting'>
             {
                 processingImage
-                    ? <img style={{ borderColor: style.PRIMARY_COLOR }} src={profilePhotoBlur} alt='leandro battocchio photo blur' />
-                    : <img style={{ borderColor: style.PRIMARY_COLOR }} src={profilePhoto} alt='leandro battocchio photo' />
+                    ? <img style={{ borderColor: style.SECONDARY_COLOR }} src={profilePhotoBlur} alt='leandro battocchio photo blur' />
+                    : <img style={{ borderColor: style.SECONDARY_COLOR }} src={profilePhoto} alt='leandro battocchio photo' />
             }
             <div className='welcome-information'>
                 <Title color={style.PRIMARY_COLOR}>Leandro Battocchio</Title>
