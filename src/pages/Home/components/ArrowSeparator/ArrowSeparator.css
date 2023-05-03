@@ -1,6 +1,8 @@
 .separator {
     display: flex;
     justify-content: center;
+    min-height: 350px;
+    min-width: 350px;
     animation: appers 1s ease-out forwards, jello-horizontal 0.8s linear both;
     opacity: 0;
 }

@@ -6,11 +6,11 @@ import ReactGA from 'react-ga'
 import { GA_ID } from '@/consts'
 import './Home.css'
 
-const Projects = lazy(() => import('./components/Projects/Projects'))
+const Projects = lazy(async () => await import('./components/Projects/Projects'))
 ReactGA.initialize(GA_ID)
 
 function Home () {
-    const { isShow: isShowFirst, fromRef: firstRef } = useNearScreen({})
+    const { isShow, fromRef } = useNearScreen({})
 
     useEffect(() => {
         ReactGA.pageview(window.location.pathname)
@@ -18,16 +18,16 @@ function Home () {
 
     return (
         <main className='home-page'>
-            <Section id='greeting'>
+            <Section id='#'>
                 <Greeting />
                 <ArrowSeparator Arrow={ArrowIcon} className='delay-large' />
             </Section>
-            <Suspense fallback={<Loader />}>
-                <Section id='projects'>
-                    <div ref={firstRef} />
-                    {isShowFirst ? <Projects /> : null}
-                </Section>
-            </Suspense >
+            <Section id='projects'>
+                <Suspense fallback={<Loader />}>
+                    <div ref={fromRef} />
+                    {isShow ? <Projects /> : null}
+                </Suspense >
+            </Section>
         </main>
 
     )

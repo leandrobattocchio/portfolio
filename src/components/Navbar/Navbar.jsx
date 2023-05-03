@@ -10,7 +10,7 @@ function Navbar () {
     return (
         <header className='navbar' style={{ backgroundColor: theme === 'light' ? '#ebedf1' : 'rgb(1, 1, 1)' }}>
             <div className='navbar-items'>
-                <Anchor className='navbar-item' color={style.PRIMARY_COLOR} href='#greeting'>{translation.home}</Anchor>
+                <Anchor className='navbar-item' color={style.PRIMARY_COLOR} href='#'>{translation.home}</Anchor>
                 <Anchor className='navbar-item' color={style.PRIMARY_COLOR} href='#projects'>{translation.projects}</Anchor>
             </div>
             <div className='navbar-features'>

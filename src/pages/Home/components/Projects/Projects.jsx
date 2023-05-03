@@ -99,7 +99,7 @@ function Projects () {
             image: ecommerceImage,
             blurImage: ecommerceImageBlurred,
             alt: 'E-commerce Project',
-            href: 'https://game-ecommerce-beta.vercel.app/',
+            href: 'https://coder-ecommerce-leandrobattocchio.vercel.app/',
             tecnologies: [TECNOLOGIES.react, TECNOLOGIES.javascript]
         },
         {
